@@ -1,0 +1,16 @@
+.logomarca {
+    width: 100%;
+    height: 100px;
+    background-color: blue;
+    font-size: 20px;
+}
+.logomarca + div{
+    width: 100%;
+    height: 100px;
+    background-color: red;
+}
+div strong {
+    color: green;
+    font-size: 20px;
+}
+

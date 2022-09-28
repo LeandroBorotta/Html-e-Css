@@ -1,0 +1,23 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+div {
+    width: 100%;
+    height: 40px;
+    background-color: blue;
+    
+    
+}
+div a{
+    color: white;
+    text-decoration: none;
+    padding: 22px;
+    display: inline;
+    
+    
+}
+div a:hover{
+    background-color: white;
+    color: black;
+}

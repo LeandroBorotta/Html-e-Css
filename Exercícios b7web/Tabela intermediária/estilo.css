@@ -1,0 +1,12 @@
+thead {
+    font-weight: bold ;
+    text-align: center;
+}
+table {
+    border: 2px solid black;
+    margin: auto;
+    height: 25%;
+    width: 25%;
+    margin-top: 10%;
+}
+
