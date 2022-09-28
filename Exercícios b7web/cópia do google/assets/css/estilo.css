@@ -45,3 +45,92 @@ header .gmail button {
     padding: 10px;
     border: 0;
 }
+header .gmail button:hover{
+    color: black;
+}
+section{
+    display: flex;
+    justify-content: center;
+}
+main img {
+    width: 500px;
+}
+main .form img{
+    width: 20px;
+    margin-left: 10px;
+}
+main .form input{
+    width: 460px;
+    height: 40px;
+    border-radius: 300px;
+    border: none;
+}
+main .form{
+    width: 580px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.app{
+    display: flex;
+    flex-direction:column;
+    
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    justify-content: center;
+    
+    margin-top: 30px;
+    
+}
+.app:hover{
+    background-color: #ccc;
+}
+
+.app .atalho{
+    display: flex;
+    justify-content: space-around;
+    min-width: 100px;
+}
+.app img{
+    width: 20px;
+    
+}
+.app h2{
+    font-size: 14px;
+}
+footer{
+    width: 100%;
+    margin-top: 227px;
+    background-color: #f0f0f0;
+    
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #eeeeee;
+    
+}
+.footer ul{
+    list-style: none;
+    display: flex
+}
+.footer a{
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    font-size: 12px;
+    color: #555;
+}
+.footer a:hover{
+    color: #1a73e8;
+}
