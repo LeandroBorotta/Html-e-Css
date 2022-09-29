@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header_um{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    
+}
+.header_um .logo1 img{
+    width: 200px;
+}
+.header_um .logo1{
+    display: flex;
+    align-items: center;
+}
+.header_um .pesquisa{
+    display: flex;
+    align-items: center;
+}
+.header_um .pesquisa img {
+    width: 20px;
+}
+.header_um .pesquisa{
+    border: 2px solid black;
+    border-radius: 50px;
+    width: 350px;
+}
+.header_um .pesquisa input {
+    border: none;
+    width: 300px;
+    display: inline-block;
+    height: 30px;
+    margin-left: 5px;
+}
+.header_um .usuario{
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+}
+.header_um .usuario a{
+    margin-left: 10px;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    display: block;
+    background-color:  blue;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+.header_um .usuario a:hover{
+    background-color: black;
+    color: white;
+}
+.usuario img{
+    width: 20px;
+}
+.header_2{
+    display: flex;
+    margin-left: 12.5%;
+}
+.header_2 ul{
+    list-style: none;
+    display: flex;
+}
+.header_2 a{
+    padding: 10px;
+    text-decoration: none;
+    color: #555;
+    border-bottom: #555 1px solid;
+}
+.header_2 a:hover{
+    color: blue;
+    border-bottom: blue 3px solid;
+}
+header{
+    border-bottom: #555 1px solid;
+    height: 128px;
+}
