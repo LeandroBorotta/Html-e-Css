@@ -158,3 +158,132 @@ main .number{
     justify-content: space-between;
     width: 450px;
 }
+.container_paginas{
+display: flex;
+align-items: center;
+margin-left: 21%;
+   
+   
+}
+.container_paginas img{
+    width: 200px;
+}
+.container_paginas .footer_img{
+    display: flex;
+    
+}
+.footer_options{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.footer_options ul{
+    list-style: none;
+    margin-right: 10px;
+}
+.footer_options li{
+    display: inline-block;
+}
+.footer_options a{
+    padding: 4px;
+    text-decoration: none;
+    color: #1a0dab;
+    display: block;
+}
+.footer_options a:hover{
+    text-decoration: underline;
+}
+footer{
+    margin-top: 20px;
+    background-color: #ddd;
+}
+.footer_um{
+    display: flex;
+    margin-left: 21%;
+    align-items: center;
+    padding-bottom: 5px;
+    
+}
+.linha{
+    border-bottom: 1px solid #999;
+}
+.footer_um .brasil{
+    display: block;
+    color: #555;
+    text-decoration: none;
+    border-right: 1px solid #999;
+    padding: 10px;
+    
+    font-size: 18px;
+}
+.footer_um ul{
+    list-style: none;
+    margin-left: 10px;
+}
+.footer_um li{
+    display: inline-block;
+}
+.footer_um .lorem{
+    color: black;
+
+}
+.footer_um a{
+    display: block;
+    text-decoration: none;
+    color: #1a0dab;
+}
+.footer_dois {
+    display: flex;
+    align-items: center;
+}
+.footer_dois ul{
+    list-style: none;
+    margin-left: 21.5%;
+}
+.footer_dois li{
+    display: inline-block;
+}
+.footer_dois a{
+    color: #555;
+    display: block;
+    text-decoration: none;
+    padding-top: 5px;
+    padding-right: 25px;
+    padding-bottom: 20px;
+}
+.footer_dois a:hover{
+    color: #333;
+}
+@media (max-width:600px) {
+    
+    
+    .header_um .pesquisa{
+        width: 250px;
+    }
+    .header_um .pesquisa input{
+        width: 200px;
+    }
+    .usuario img{
+        display: none;
+    }
+
+    .header_um .usuario a{
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-size: 15px;
+        text-align: center;
+        padding-right: 30px;
+       
+    }
+    .usuario{
+        margin-left: 100px;
+        margin-right: 2%;
+    }
+    footer{
+        display: none;
+        
+    }
+}
+  
