@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+table{
+    margin: auto;
+    border: 5px solid black;
+    width: 248px;
+    height: 186px;
+    margin-top: 5%;
+}
+tr, td{
+    border: 1px solid black;
+}
+thead{
+    font-weight: bold;
+}
+thead tr:nth-child(1){
+    background-color: #ccc;
+}
+tbody tr:nth-child(2n-1) {
+    background-color: lightgreen;
+}
